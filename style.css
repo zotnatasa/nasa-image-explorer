@@ -1,0 +1,85 @@
+/* Γενικό στυλ για όλη τη σελίδα (Διαστημικό Φόντο) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0b3d91 0%, #020715 100%);
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Ο μεγάλος τίτλος */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Το κουτί της αναζήτησης */
+.search-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* Το πεδίο της ημερομηνίας */
+input[type="date"] {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Το κουμπί Αναζήτησης */
+button {
+    background-color: #fc3d21; /* Το επίσημο κόκκινο της NASA */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ce2a14;
+}
+
+/* Το κουτί με τα αποτελέσματα (Εικόνα & Κείμενο) */
+#result {
+    max-width: 700px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* Η φωτογραφία της NASA */
+#nasaImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+/* Το κείμενο της περιγραφής */
+#explanation {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    text-align: justify;
+}
