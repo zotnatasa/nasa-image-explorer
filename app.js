@@ -1,4 +1,3 @@
-const apiKey = 'FpB6kQRkYAFOCuvYTT6fBsn3A00CniUwaITkWF1g';
 
 const dateInput = document.getElementById('dateInput');
 const searchBtn = document.getElementById('searchBtn');
